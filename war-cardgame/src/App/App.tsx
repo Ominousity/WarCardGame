@@ -1,7 +1,10 @@
+import Menu from "../Pages/Main-Menu/Menu";
 import "./App.css";
 
-function App() {
-  return <></>;
+export default function App() {
+  return (
+    <>
+      <Menu/>
+    </>
+  );
 }
-
-export default App;
